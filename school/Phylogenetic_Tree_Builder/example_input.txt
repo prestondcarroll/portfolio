@@ -1,0 +1,9 @@
+This list has been truncated. It is meant to show what the input looks like. The organism's name and protein sequence is included.
+
+
+>9258|refseq_protein.50.proto_past_mitoc_micro_vira|gi|5836067|ref|NP_008051.1|ND4_15105Ornithorhynchus_anatinus
+MTTMFLNLLLAFTVALVGVFIYREHLMSTLLCLEGMMLSIFIMVALILLHHHLNSTMMLP
+LILLVFSACEAGVGLALLVKTSNSYGTDHINNLNLLQ
+>33543|refseq_protein.50.proto_past_mitoc_micro_vira|gi|54112094|ref|YP_122151.1|Zagossus_bruijni
+MTTMFFNLLLAFMVALMGVYIYREHLMSTLLCLEGMMLSIFIMVSLTLLHHHLNSTMMFP
+LILLVFSACEAGVGLALLVKTSNSYGTDYIDNLNLLQ
