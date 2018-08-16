@@ -7,11 +7,10 @@ Please download the ![zip file](https://raw.githubusercontent.com/prestondcarrol
 
 Back Story: This is a fast-paced game from the Nintendo DSi that I have rebuilt from scratch in python using the pygame libraries. The game is called Birds & Beans, and you play as a bird called Pyoro who spits seeds at beans that constantly drop from the sky. Spitting beans contribute to your score while missing beans will block the path for Pyoro to walk on. Getting hit on the head by a bean means game over.
 
-User’s guide:
-	How to play:
-Left ← and right →arrows: Move Left & Right
-Z:	will spit in a diagonal line that matches up with the direction pyoro looks like he is spitting in
-F1:  brings up the info/help screen (meant to be pressed once)
+How to play: <br />
+-Left ← and right →arrows: Move Left & Right <br />
+Z:	will spit in a diagonal line that matches up with the direction pyoro looks like he is spitting in <br />
+F1:  brings up the info/help screen (meant to be pressed once) <br />
 Esc: exits the game
 
   Objective: Avoid getting hit by the beans and and get the highest score you can before dieing. If they hit you on the head then game over. 
