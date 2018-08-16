@@ -1,0 +1,59 @@
+# Set Environment variables
+TWELVE=12
+THREE=3
+ONE=1
+TWO=2
+CC=gcc
+X=64
+
+umake: umake.o arg_parse.o
+	rm umake
+	gcc -o umake umake.o arg_parse.o
+
+umake.o: umake.c arg_parse.h
+	gcc -c umake.c
+
+arg_parse.o: arg_parse.c arg_parse.h
+	gcc -c arg_parse.c
+
+target.o: target.c target.h
+	gcc -c target.c
+
+work:
+	echo appending date to log
+	date >> log
+	echo done
+
+	echo writing "ls -a" to files
+	ls -a > files
+	echo done
+
+	echo count num_lines in files
+	wc -l < files 
+	echo done
+
+	echo direct output to line_count
+	wc -l < files > line_count
+	echo done
+
+hello_world:
+	echo compiling hello
+	gcc -o hello hello.c
+	echo done
+
+variable_test: v_test1 v_test2 #In-line comment
+	echo ${THREE}
+	echo skip a few...
+	echo ${TWELVE}
+	echo Variable X is: ${X} 
+
+v_test1: none
+	echo ${ONE}
+
+v_test2: none
+	echo ${TWO}
+
+clean:
+	rm umake
+	rm arg_parse.o
+	rm umake.o
