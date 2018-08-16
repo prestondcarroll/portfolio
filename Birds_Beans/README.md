@@ -1,7 +1,7 @@
 # Birds & Beans
 Birds & Beans
 
-![Video Demo] (https://raw.githubusercontent.com/prestondcarroll/projects/master/Birds_Beans/Birds_Beans.mp4)
+![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/Birds_Beans/Birds_Beans.mp4)
 
 Back Story: This is a fast-paced game from the Nintendo DSi that I have rebuilt from scratch in python using the pygame libraries. The game is called Birds & Beans, and you play as a bird called Pyoro who spits seeds at beans that constantly drop from the sky. Spitting beans contribute to your score while missing beans will block the path for Pyoro to walk on. Getting hit on the head by a bean means game over.
 
