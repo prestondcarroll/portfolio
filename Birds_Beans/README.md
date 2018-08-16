@@ -14,7 +14,7 @@ How to play: <br />
 * Esc: exits the game
 
 
-	Objective: Avoid getting hit by the beans and and get the highest score you can before dieing. If they hit you on the head then game over. 
+Objective: Avoid getting hit by the beans and and get the highest score you can before dieing. If they hit you on the head then game over. 
 	Scoring: The more beans you can hit in one shot, the higher the score! One bean is worth 50 points. Two beans is 100 each, or 200. Three beans is 300 each, or 900. And 4 beans is 1000 each, or 4000! 
 	Modes: There is one mode is this game and it is the one you play.
 	Help: Press F1 to bring up the info/help screen.
