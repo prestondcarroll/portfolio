@@ -1,6 +1,6 @@
 # Online Chat Application
 
-![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/Online_Chat/demo.mp4)
+![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/Online_Chat/chat_client_demo.mp4)
 
 This program is a simple online chat application where up to 255 participants can connect and send messages to each other.
 A new connection can either be a observer or a participant. Participants have to pick a username and can send messages, while
