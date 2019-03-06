@@ -3,7 +3,8 @@ IoT Home Automation
 Description Forthcoming
 
 
-Sensor Breakdown
+**Sensor Breakdown**
+
 a.) Light Control - Pressing the touch sensor will turn on the Blue LED on the ESP’s breadboard. Additionally, pressing the toggle on Node Red will turn on/off the Yellow LED, which represents the door being locked
 
 b.) Temperature Control - The DHT sensor connected to the ESP reads temperature from Node Red and displays it on a graph
@@ -27,19 +28,19 @@ j.) Joystick - The joystick is connected to the Arduino and will move the motor 
 k.) Miscellaneous interesting feature - Photoresistor - Shining a light at the photoresistor or bringing it outside in daylight will trigger the RED led to be lit up.
 
 
-House Diagram
+**House Diagram**
 
 
 ![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/IoT%20Home%20Automation/House_Diagram.png)
 
 
 
-Online Remote Dashboard
+**Online Remote Dashboard**
 
 ![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/IoT%20Home%20Automation/dashboard.png)
 
 
 
-Overview of House
+**Overview of House**
 
 ![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/IoT%20Home%20Automation/House_Overview.jpg)
