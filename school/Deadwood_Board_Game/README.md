@@ -17,3 +17,4 @@ The game mixes chance with some strategy for players to compete to get the highe
 the dice roll used for payout, they can choose where to go and what to do with their fame and fortune. The game has a western
 theme to it and the character designs are cartoonish and stylized. 
 
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/Deadwood_Board_Game/deawood.png)
