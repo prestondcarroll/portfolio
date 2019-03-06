@@ -9,3 +9,5 @@ This type of model is an n-gram model where the order, n, effects the sentences 
 
 Completed for CSCI 241 - Data Structures - April 2017
 
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/Language_Modeler/Language_Modeler.png)
+
