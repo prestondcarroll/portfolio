@@ -1,6 +1,6 @@
-Open IR Security
+**Open IR Security**
 
-Android app for custom home security using Firebase storage / authentication and an Arduino-programmed motion sensor.
+* Android app for custom home security using Firebase storage / authentication and an Arduino-programmed motion sensor.
 
 
 
