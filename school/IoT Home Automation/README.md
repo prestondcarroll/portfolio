@@ -1,4 +1,4 @@
-#IoT Home Automation
+# IoT Home Automation
 
 Built a system for a model house using Node-Red, Arduino, Raspberry Pi, and 7 different sensors. Further Description forthcoming
 
