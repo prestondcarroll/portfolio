@@ -4,7 +4,7 @@ Android app for custom home security using Firebase storage / authentication and
 
 
 
-**Poster Showcase and Overview**
+**Poster Showcase and Overview** Click image to see full size
 
 ![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/Open%20IR%20Security/CSCI%20412%20-%20Mobile%20Device%20Poster.jpg)
 
