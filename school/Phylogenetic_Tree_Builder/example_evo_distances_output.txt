@@ -1,0 +1,9 @@
+This list has been truncated as it is very large. Every pair of species is given a evolutionary distance.
+
+EvDistance(Acinonyx_jubatus,Acinonyx_jubatus) = 0.00
+EvDistance(Acinonyx_jubatus,Panthera_tigris) = 0.03
+EvDistance(Panthera_tigris,Acinonyx_jubatus) = 0.03
+EvDistance(Panthera_tigris,Panthera_tigris) = 0.00
+EvDistance(Panthera_tigris,ND4_10685Feis_catus) = 0.16
+EvDistance(Panthera_tigris,Uncia_uncia) = 0.16
+EvDistance(Panthera_tigris,Neofeis_nebuosa) = 0.14

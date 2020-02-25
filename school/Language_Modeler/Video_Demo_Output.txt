@@ -1,0 +1,77 @@
+carrolp2@cf416-den-05:~/projects/csci241/prog1$ java Program1 texts/shakespeare.txt 4
+Enter a history: <s> the
+history is [<s> the]
+
+Order 2 completion: <s> the isle that i know not pass and myself and ostlers trade-fall'n the matter- nurse </s>
+
+Order 3 completion: <s> the proclamation! thersites </s>
+
+Order 4 completion: <s> the glorious gods sit in hourly synod about thy particular prosperity and love thee too unless they seek for hatred at my hands by helping me to the alehouse if not thou art an o without a figure </s>
+
+Enter a history: and then all
+history is [and then all]
+
+Order 2 completion: and then all that you that appears to hide our happiness with the sea speed redress'd all the flat tamed piece of the age thou speak'st thou talk'st of syracuse </s>
+
+Order 3 completion: and then all to make a sop of all dies for claudio's death isabella [kneeling] most bounteous sir look sir! here is everything advantageous to life maria </s>
+
+Order 4 completion: and then all this thou seest is but a kind of easiness to the next high way and there i left him tranc'd alb </s>
+
+Enter a history: it was a
+history is [it was a]
+
+Order 2 completion: it was a saying is with thinking he is to study help roderigo </s>
+
+Order 3 completion: it was a cur can lend thou truly fair wert truly sympathized in true delights [a dance] exeunt epilogue epilogue rosalind </s>
+
+Order 4 completion: it was a piteous deed!' there take the paper see it be return'd or else return no more into my sight away i say </s>
+
+Enter a history: <s> they
+history is [<s> they]
+
+Order 2 completion: <s> they had beat exit titus </s>
+
+Order 3 completion: <s> they are foolish that are in readiness queen margaret </s>
+
+Order 4 completion: <s> they say all lovers swear more performance than they are to their right praise and true perfection! peace ho! the moon sleeps with endymion and would not force the letter to my love shine out fair sun till i have found demetrius like a jewel mine own and i as i swear perfect love! rivers </s>
+
+Enter a history: ^C
+
+
+carrolp2@cf416-den-05:~/projects/csci241/prog1$ java Program1 grimms.txt 4 vocab.txt counts.txt
+Enter a history: <s> the
+history is [<s> the]
+
+Order 2 completion: <s> the sea! hearken to his heart so he to drink to the end to him! don't you will fill the old mr carter and such a great despair he had perished </s>
+
+Order 3 completion: <s> the bean 'that as we live' and their mother told them that they might be someone clapping their hands </s>
+
+Order 4 completion: <s> the bean thanked him most prettily but as the king to her and took her by the hand then they all broke through the window 'after all i cannot prevent the sun rising' at this thought she was very glad for she knew the charm and she saw that it was watered with her tears the bird now flew to the bear's hole and cried 'growler you are to do such a thing' 'why' answered she 'i used the butter to grease those poor trees they will never get well' so she took pity on her and put his hand into his pocket with the cheese </s>
+
+Enter a history: and then all
+history is [and then all]
+
+Order 2 completion: and then all their geese to watch but the youngest said sensibly enough and away and no longer so fast as there </s>
+
+Order 3 completion: and then all three to a fine bird in this room to the meadow together but the maid from her window and felt such a heart could be seen the juniper-tree kywitt kywitt what a beautiful apple out of the little tailor leapt down 'it is only a white dove sang 'home! home! look at go not in his arms and she stood before the house and knocked at the sparkling waves and said 'pray let the old fox with nine tails like old mr fox </s>
+
+Order 4 completion: and then all their shoes were worn to pieces and the quilts and pillows were pulled off the bed </s>
+
+Enter a history: it was a 
+history is [it was a]
+
+Order 2 completion: it was a room moaning in their fiery eyes like to be the way as i am alive or one farther for the king went his black dwarf 'why should be allowed to have some peas roll better!' said to drink' 'nay' said the lady who saw the thunders rolled into a golden road which the gardener at such a fire on which they got out you be able to rise without my bones were pulled out his head so much </s>
+
+Order 3 completion: it was a witch 'do give me the small peasant should have put them on the way of mankind so now the old folks were asleep and will not be the handsomest lady in she seems to be afraid wait i will teach you to a rope and took a sorrowful leave of his victory 'i am not i good enough for four pair more </s>
+
+Order 4 completion: it was a lovely day they stayed there till the evening </s>
+
+Enter a history: <s> they
+history is [<s> they]
+
+Order 2 completion: <s> they got ready they were sent to their shoes on her she had to save myself' thereupon he went out with his back your mother said hans takes the hedge of hunger </s>
+
+Order 3 completion: <s> they gave him like a nosegay </s>
+
+Order 4 completion: <s> they lived on this as long as it lasted and then her wicked heart was glad and at peace but when they should have killed him they could not return home again </s>
+
