@@ -10,7 +10,7 @@ import java.awt.event.*;
 @SuppressWarnings( "deprecation" )
 public class View extends JFrame{
 
-    static JLayeredPane bPane;
+    JLayeredPane bPane;
 
 
     public View() {
@@ -22,38 +22,27 @@ public class View extends JFrame{
         setVisible(true);
         setSize(500,800);
 
-        addBlock();
-
-
+        //addBlock();
     }
 
-    public void addBlock(){
+    public void addBlock(Point[] tetromino){
 
-        JLabel block = new JLabel();
         String image = "blocks.png";
+        for(int i = 0; i < 4; i++){
+            JLabel block = new JLabel();
+            ImageIcon blockImg =  new ImageIcon(View.class.getResource("res/"+ image));
+            block.setIcon(blockImg);
+            block.setOpaque(true);
 
-        ImageIcon blockImg =  new ImageIcon(View.class.getResource("res/"+ image));
-        //ImageIcon blockImg =  new ImageIcon(View.class.getResource("C:\\Users\\rubbe\\Desktop\\Preston\\github\\repo\\tetris\\res\\blocks.png"));
-        block.setIcon(blockImg);
-        block.setOpaque(true);
-
-        //block.setBounds(21,69,blockImg.getIconWidth(),blockImg.getIconHeight());
-        block.setBounds(0,0, 25,25);
-        bPane.add(block, new Integer(1));
+            block.setBounds(tetromino[i].x * 25,tetromino[i].y * 25, 25,25);
+            bPane.add(block, new Integer(1));
+        }
+    }
 
 
-
-
-//        JLabel block2 = new JLabel();
-//        ImageIcon blockImg =  new ImageIcon(View.class.getResource("res/"+ image));
-//        //ImageIcon blockImg =  new ImageIcon(View.class.getResource("C:\\Users\\rubbe\\Desktop\\Preston\\github\\repo\\tetris\\res\\blocks.png"));
-//        block.setIcon(blockImg);
-//        block.setOpaque(true);
-//
-//        //block.setBounds(21,69,blockImg.getIconWidth(),blockImg.getIconHeight());
-//        block.setBounds(0,0, 25,25);
-//        bPane.add(block, new Integer(1));
-
+    public void clear(){
+        //Container c = getContentPane();
+        getContentPane().removeAll();
     }
 
 
