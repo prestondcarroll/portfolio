@@ -10,6 +10,9 @@ import java.awt.Point;
 public class Tetris {
 
     //static Point[] tetromino = new Point[4];
+    static int dx = 0;
+    static boolean rotate = false;
+    int colorNum = 1;
 
     static Point[] tetromino = {
             new Point(0,0),
@@ -18,7 +21,7 @@ public class Tetris {
             new Point(0, 0)
     };
 
-    static View  view = Main.view;
+    static View view = Main.getView();
 
     static int [][]  shapes = {
             {1,3,5,7},  //I -> 0
@@ -31,19 +34,20 @@ public class Tetris {
     };
 
 
-    public static void draw_tetro(int shape_num){
+    public static Point[] make_tetro(int shape_num){
         for(int i = 0; i < 4; i++){
             tetromino[i].x = shapes[shape_num][i] % 2;
             tetromino[i].y = shapes[shape_num][i] / 2;
         }
 
-        view.clear();
-        view.addBlock(tetromino);
+        return tetromino;
 
+        //view.clear();
+        //view.addBlock(tetromino);
+    }
 
-
-
-
+    public static void setMove(int num){
+        dx = num;
     }
 
 }

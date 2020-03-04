@@ -8,21 +8,29 @@ import javax.swing.*;
 import java.awt.event.*;
 
 @SuppressWarnings( "deprecation" )
-public class View extends JFrame{
+public class View extends JPanel{
 
     JLayeredPane bPane;
+    private Timer timer;
+    private final int FPS = 1;
+    private final int delay = 1000/FPS;
+    private boolean gameOver = false;
+    int shape_num = 0;
 
 
     public View() {
-        super("Tetris");
-        // Set the exit option for the JFrame
-        bPane = getLayeredPane();
+        timer = new Timer(delay, new ActionListener(){
 
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setVisible(true);
-        setSize(500,800);
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                update();
+                repaint();
+            }
+        });
 
-        //addBlock();
+        timer.start();
+        addKeyListener(new TAdapter());
+
     }
 
     public void addBlock(Point[] tetromino){
@@ -35,14 +43,59 @@ public class View extends JFrame{
             block.setOpaque(true);
 
             block.setBounds(tetromino[i].x * 25,tetromino[i].y * 25, 25,25);
-            bPane.add(block, new Integer(1));
+            this.add(block, new Integer(1));
         }
     }
 
 
     public void clear(){
         //Container c = getContentPane();
-        getContentPane().removeAll();
+        //getContentPane().removeAll();
+    }
+
+    public void update(){
+        addBlock(Main.tetris.make_tetro(shape_num));
+        shape_num++;
+        //Tetris.draw_tetro(shape_num);
+    }
+
+
+//    static class keyListener implements ActionListener {
+//
+//        timer = new Timer(delay, new ActionListener();
+//
+//        @Override
+//        public void actionPerformed(ActionEvent e) {
+//
+//            Tetris.update();
+//            Tetris.repaint();
+//        }
+//    }
+
+
+    class TAdapter extends KeyAdapter {
+
+        @Override
+        public void keyPressed(KeyEvent e) {
+
+//            if (curPiece.getShape() == Tetrominoe.NoShape) {
+//
+//                return;
+//            }
+
+            int keycode = e.getKeyCode();
+
+            // Java 12 switch expressions
+            switch (keycode) {
+                //case KeyEvent.VK_P -> pause();
+                case KeyEvent.VK_LEFT ->  Tetris.setMove(1);//tryMove(curPiece, curX - 1, curY);
+                case KeyEvent.VK_RIGHT -> Tetris.setMove(-1);//tryMove(curPiece, curX + 1, curY);
+                //case KeyEvent.VK_DOWN -> tryMove(curPiece.rotateRight(), curX, curY);
+                //case KeyEvent.VK_UP -> tryMove(curPiece.rotateLeft(), curX, curY);
+                //case KeyEvent.VK_SPACE -> dropDown();
+                //case KeyEvent.VK_D -> oneLineDown();
+            }
+        }
     }
 
 
