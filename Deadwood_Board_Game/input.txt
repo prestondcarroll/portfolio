@@ -1,0 +1,22 @@
+2
+me
+you
+move
+Main Street
+move
+Main Street
+move
+Jail
+move
+Jail
+move 
+Train Station
+move
+Train Station
+move
+office
+move
+office
+upgrade
+8 money
+6 money

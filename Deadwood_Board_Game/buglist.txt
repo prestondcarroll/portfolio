@@ -1,0 +1,36 @@
+bug where no trimming whitespace
+bug have to have capital in things like "Main Street"
+bug can misspell two words and it will work if the first work is right
+bug no nearby sets when you move while having a role
+bug chooses upgrade with insufficient funds wastes turn
+
+
+bug thinks any non (y/n) means 'n'
+bug Location and Gameboard are never intitalized properly with "new"
+no way of telling on board roles vs on card roles
+numTakes[takeNumber] gameboardPieces array out of bounds exception
+bug saying work and then act even without role still has program proceed 
+bug can take a role on a place that already has finished.
+asks to take a role at casting office
+bug asks for a different action, then doing acts works, when you need to work first 
+	(e.g) move -> invalid already have role -> pick act -> should fail
+
+getPartLevel arrayout of bounds
+
+days are not ending properly
+
+
+
+
+say how much payout was for movie
+
+
+need to provide feedback when player does action
+Does not recognize a scene is done
+=======
+I don't know what Pid is. Part ID?
+
+to test:
+it's a wrap
+end of day
+end game
