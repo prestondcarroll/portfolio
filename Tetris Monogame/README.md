@@ -1,9 +1,10 @@
 # Tetris using Monogame 
 Tetris coded in Monogame C# library
 
-![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/Tetris%20Monogame/example.png)
+![alt text](https://raw.githubusercontent.com/prestondcarroll/portfolio/master/Tetris%20Monogame/example.png)
 
-Please download the ![Game .exe](https://raw.githubusercontent.com/prestondcarroll/projects/Tetris%20Monogame/example.png) to play the game. 
+Please download the ![Zip File](https://raw.githubusercontent.com/prestondcarroll/projects/Tetris%20Monogame/Tetris_Game) to play the game. 
+Extract the zip file and click on Tetris.exe
 
 
 
