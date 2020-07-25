@@ -4,25 +4,25 @@
   <br/> <br/> <br/>
 
 **Poster Showcase and Overview** Click image to see full size
-![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/CSCI%20412%20-%20Mobile%20Device%20Poster.jpg)
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/photos/CSCI%20412%20-%20Mobile%20Device%20Poster.jpg)
   <br/> <br/> <br/>
 
 **Logging in to the app & Home page- viewing all sensors and recent alerts.**
-![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/screen_shots_1.png)
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/photos/screen_shots_1.png)
   <br/> <br/> <br/>
 
 **Adding a new sensor & Viewing the full log history of a sensor.**
-![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/screenshots_2.png)
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/photos/screenshots_2.png)
   <br/> <br/> <br/>
 
 **Viewing logs for individual sensor & Creating a new user account.**
-![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/screenshots_3.png)
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/photos/screenshots_3.png)
   <br/> <br/> <br/>
 
 **Motion Sensor Diagram**
-![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/motion_sensor.png)
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/photos/motion_sensor.png)
   <br/> <br/> <br/>
 
 **Motion Sensor Picture**
-![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/motion_sensor_pic.jpg)
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Open_IR_Security_Android_App/photos/motion_sensor_pic.jpg)
   <br/> <br/> <br/>

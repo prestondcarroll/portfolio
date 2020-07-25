@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/statusBar</item>
+        <item name="colorPrimaryDark">@color/WWU_blue</item>
+        <item name="colorAccent">@color/WWU_light_blue</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="android:textColorPrimary">@color/textColor</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:statusBarColor">@color/statusBar</item>
+
+    </style>
+</resources>

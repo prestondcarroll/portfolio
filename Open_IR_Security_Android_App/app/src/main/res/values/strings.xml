@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">CS412_Project</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="register">Register</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="ys">Your Sensors </string>
+    <string name="recentalerts">Recent Alerts </string>
+    <string name="title_activity_main">Open IR Security</string>
+    <string name="add_sensor_title">Add Sensor</string>
+    <string name="enable_default">Armed By Default</string>
+    <string name="recv_notifications">Receive Notifications</string>
+    <string name="sensor_name">Sensor Name</string>
+    <string name="back">Back</string>
+    <string name="full_log">Full Log History</string>
+    <string name="emailHint">Please enter email:</string>
+    <string name="password0Hint">Type password here:</string>
+    <string name="password1Hint">Reenter password:</string>
+    <string name="createUserButtonText">Create new user!</string>
+
+
+    <string-array name="filter_array">
+        <item>Most Recent</item>
+        <item>Sensor Name</item>
+    </string-array>
+    <string-array name="days">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="years">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+    </string-array>
+    <string-array name="devices">
+
+    </string-array>
+    <string name="title_activity_add_user">addUser</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "877497252497",
+    "firebase_url": "https://test-e0c09.firebaseio.com",
+    "project_id": "test-e0c09",
+    "storage_bucket": "test-e0c09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877497252497:android:9e8b65705e1cecb1",
+        "android_client_info": {
+          "package_name": "cs412_project.csci412.wwu.edu.cs412_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877497252497-fjv346si3bracap79t457l1b8h3lp59s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cs412_project.csci412.wwu.edu.cs412_project",
+            "certificate_hash": "cb5b419a46e6b44368cf5d734feb34ab6e3d5286"
+          }
+        },
+        {
+          "client_id": "877497252497-1hskjln3bv57k6mo86rtill8nb8mbsfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCztUxaOMSo1yzfRIPcgoaOkih3NhQ_rE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877497252497-1hskjln3bv57k6mo86rtill8nb8mbsfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

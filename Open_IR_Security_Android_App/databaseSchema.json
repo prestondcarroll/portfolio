@@ -1,0 +1,50 @@
+{
+  "devices" : {
+    "device0" : "ID1",
+    "device1" : "ID2"
+  },
+  "users" : {
+    "12" : {
+      "devices" : {
+        "Device 1" : {
+          "deviceName" : "Device 1",
+          "isArmed" : false,
+          "isOnline" : false,
+          "wifiPass" : "",
+          "wifiSSD" : ""
+        }
+      },
+      "email" : "sutingk@wwu.edu",
+      "token" : "1838213"
+    },
+    "ID1" : {
+      "Auth token" : "132131",
+      "Devices" : {
+        "device0" : {
+          "IP" : "192.123.123.123",
+          "Is Armed" : false,
+          "Is Online" : false,
+          "User Device Name" : "device0",
+          "triggerEvent0" : "01051995.2351"
+        }
+      },
+      "email" : "asdfasdf@gmail.com"
+    },
+    "ID2" : {
+      "Devices" : {
+        "device1" : {
+          "IP" : "192.123.123.123",
+          "Is Armed" : false,
+          "Is Online" : false,
+          "User Device Name" : "device0",
+          "triggerEvent0" : "0123021.2231",
+          "triggerEvent1" : "9191123.1231"
+        }
+      },
+      "email" : "AdaLovelace2"
+    },
+    "ID3" : {
+      "device1" : "door_sensor"
+    }
+  }
+}
