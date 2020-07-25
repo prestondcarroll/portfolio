@@ -1,9 +1,9 @@
 # Birds & Beans
 Birds & Beans
 
-![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/Birds_Beans/Birds_Beans.mp4)
+![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/Birds_Beans_Pygame/Birds_Beans.mp4)
 
-![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Birds_Beans/birds_beans.png)
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Birds_Beans_Pygame/birds_beans.png)
 
 Please download the ![zip file](https://raw.githubusercontent.com/prestondcarroll/projects/master/Birds_Beans/Birds_Beans_Windows_exe.zip) to play the game. Extract the contents and click the Birds.exe file to play. It should work on windows environments without the need for a python installation.
 
