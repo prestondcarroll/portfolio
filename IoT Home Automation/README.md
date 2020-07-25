@@ -2,6 +2,8 @@
 
 Built a system for a model house using Node-Red, Arduino, Raspberry Pi, and 7 different sensors. Further Description forthcoming
 
+![Video Demo](https://github.com/prestondcarroll/portfolio/raw/master/IoT%20Home%20Automation/IoT_House_Demo.mp4)
+
 
 **Sensor Breakdown**
 
