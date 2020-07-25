@@ -1,0 +1,15 @@
+DerivedTerms.cs
+	-Added:
+		Lines 218-222
+
+Bootstrap.cs
+	-Added:
+		Line 242
+		Line 243
+
+Builtins.cd
+	-Added:
+		Line  63
+		Line  69
+		Lines 231-241
+

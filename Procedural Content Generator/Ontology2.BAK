@@ -1,0 +1,107 @@
+% Author:
+% Date: 5/30/2018
+
+%items
+item(knife).
+item(chicken).
+item(beer).
+
+%containers
+container(fridge).
+container(dishwasher).
+container(oven).
+container(sink).
+container(bbq).
+
+%supports
+support(counter).
+%support(fridge).
+
+%Other attributes
+utensil(knife).
+
+food(chicken).
+
+cooler(fridge).
+
+cooker(bbq).
+cooker(oven).
+
+dispenser(beer_tap).
+
+perishable(chicken).
+perishable(beer).
+
+sittable(stool).
+
+movable(stool).
+movable(chicken).
+movable(knife).
+movable(beer).
+
+grabbable(chicken).
+grabbable(knife).
+grabbable(beer).
+
+appliance(fridge).
+appliance(dishwasher).
+
+drink(beer).
+/*food(chicken).*/
+
+consumable(beer).
+consumable(chicken).
+
+interactable(beer_tap).
+interactable(dishwasher).
+interactable(fridge).
+interactable(bbq).
+
+%queries
+is_adjacent_to(X,Y) :-
+  in_front_of(X,Y),
+  is_left_of(X,Y),
+  is_right_of(X,Y),
+  is_behind(X,Y).
+  
+/* Rules to implement
+  * Add inside_of rule
+  * Add on_top_of rule
+  * 2 items can't be in front of each other
+  * Wall must be behind Appliance (appliance placced in front of wall)
+  * Items must be placed on surfaces/ in container
+  * Perishables must be placed inside cooler
+  * Appliance can't be placed behind anything
+*/
+/*
+Input:
+ apple, fridge, w1,w2,w3,w4
+ in_front_of(fridge, w1)
+
+Output:
+ inside_of(apple, fridge)
+*/
+is_item(I) :-
+  item(I).
+
+is_movable(I) :-
+  item(I),
+  movable(I).
+
+is_interactable(I) :-
+  interactable(I).
+
+is_support(S) :-
+  support(S).
+
+placable(I,S) :-
+  item(I),
+  support(S).
+
+placable(I, C) :-
+  item(I),
+  container(C).
+  %isSmallerThan(I, C)
+
+is_placeable(I,S) :-
+   placable(I,S).

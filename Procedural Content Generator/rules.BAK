@@ -1,0 +1,128 @@
+% Author: Jon Spitzer
+% Date: 4/4/2018
+
+ % Item Classification
+   % is_item :-
+   % is_support :-
+   % is_container :-
+   % is_environment :-
+
+ % Position Classification
+   % is_on :-
+   % is_inside :-
+   % has_no_relation :- not(has_relation(X, item))
+   % has_relation(support, item)
+
+ % Active Classification
+   % is_active :-
+   % is_inactive :-
+
+ % Grid definition
+   % occupied(X,Y)
+   % has_path(X1,Y1,X2,Y2)
+
+
+ % Rules Objective:
+   % Step 1
+     % Place every object: O(n)
+
+   % Step 2
+     % Determine if a path exists between every object: O(n)
+       % Compare object 1 and object 2, then object 2 and object 3, etc.
+       % If each returns true then there will exist a path between every object.
+       % else repeat step 1.
+
+   % Step 3
+     % Output.
+
+
+ % Defining Adjacency of Grid Tiles
+ adjacent(X,Y,NX,Y) :- NX is X+1.
+ adjacent(X,Y,X,NY) :- NY is Y+1.
+ adjacent(X,Y,NX,Y) :- NX is X-1.
+ adjacent(X,Y,X,NY) :- NY is Y-1.
+
+ % Map Definition
+ in_map(X, Y, W, H) :-
+    X >=0,
+    X < W,
+    Y >=0,
+    Y < H.
+ 
+ % -------------------------------------------- Not Working / Not Tested -------------------------------------------------------
+
+ % Determines if a path between two nodes exists
+ % X:  Current y-position
+ % Y:  Current x-position
+ % XF: Final x-position
+ % YF: Final y-position
+ % W:  Width of grid-space
+ % H:  Height of grid-space
+ % OC: List of occupied cells
+ % VC: List of visiited cells
+ does_path_exist(X,Y,XF,YF,W,H,OC,VC) :-
+                          path_exists(X,Y,XF,YF,W,H,OC,VC).
+
+ path_exists(X,Y,XF,YF,W,H,OC,VC) :-
+                          adjacent(X,Y,XF,YF).
+                           
+ path_exists(X,Y,XF,YF,W,H,OC,VC) :-
+                          adjacent(X,Y,NX,NY),                     % Get an adjacent cell
+                          in_map(NX,NY,W,H),                       % Ensure cell is within map
+                          \+memberchk([NX,NY], OC),                % Ensure cell is not occupied
+                          \+memberchk([NX,NY], VC),                % Ensure cell is not visited
+                          append(VC, [[X,Y]], Visited),            % Add previous cell to list of visited cells
+                          path_exists(NX,NY,XF,YF,W,H,OC,Visited). % Recursive Call
+
+
+ % Place 1v1 Objects on a grid of dimension HxW */
+   % Format:
+     % Max: Total number of objects to be placed.
+     % Width: Width of map.
+     % Height: Height of map. */
+   random_cell(W,H,X,Y) :-
+        random(0,W,X),
+        random(0,H,Y).
+     
+   generate_map(Max, Width, Height, Result) :- populate_map(0,Max,Width,Height,[], Result).
+
+ % Base Case: count is greater than total object count
+   populate_map(Count,Max,Width,Height,Result, Result) :- Count >= Max.
+
+ % Initial Case: No previous cell
+   populate_map(Count,Max,Width,Height,Locations,Result) :-
+                                                     Count = 0,
+                                                     random_cell(Width,Height,X,Y),
+                                                     populate_map(1,Max,Width,Height,[[X,Y]],Result).
+
+ % Recursive Case */
+    populate_map(Count,Max,Width,Height, Locations, Result) :-
+                                                     random_cell(Width,Height,X,Y),               % Get a random Cell
+                                                     \+memberchk([X,Y], Locations),               % Ensure Location isn't Occupied
+                                                     last(Locations,C),                           % Location of Previous Object
+                                                     reverse(C,P),                                % Reverse Order of Previous Location
+                                                     last(P,XI),                                  % Get X-Coordinate of Previous Object
+                                                     last(C, YI),                                 % Get Y-Coordinate of previous object
+                                                     does_path_exist(X,Y,XI,YI, Width, Height,Locations,[]),                  % Ensure existence of path to previous coordinate
+                                                     append(Locations, [[X,Y]], Location),          % Add Coordinate to list of Coordinates
+                                                     populate_map(Count + 1, Max, Width, Height, Location, Result).
+
+ % Place Objects of any dimension on a grid of dimension HxW
+   % Format:
+     % Objects: A list of lists representing the diensions of each object. [[W1,H1], [W2,H2]]
+     %  Width: Width of the map
+     % Height: Height of the map */
+
+ % Necessary Actions */
+    % 1. Position 1 square of object at an unoccupid location on the map */
+    % 2. Ensure there is a valid path from the object to the previous object */
+    % 3. Ensure there is enough space around location for object */
+
+
+
+% generate_map(Objects, Width, Height) :- /* Size of Objects is 0 */
+
+% generate_map(Objects, Width, Height) :-
+  % X is random(0, Width),
+  % Y is random(0, Height),
+  % populate_object(Objects, Width, Height).
