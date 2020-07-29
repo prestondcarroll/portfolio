@@ -8,7 +8,7 @@ the compiling process.
 
 This project was made in C and will store all the different targets as well as their rules for compiling. The dependencies
 are stored in a linked list so when a target needs to be built it can iterate over the linked list and find new targets to build.
-Completed for Computer Systems II, November 2017
+Completed for Computer Systems II, November 2017. - Temporarily Public
 
 
 Features:
