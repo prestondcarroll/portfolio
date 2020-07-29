@@ -1,4 +1,4 @@
-# Online Chat Application
+# TCP/IP Chatroom
 
 ![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/TCP_IP_Chatroom/chat_client_demo.mp4)
 
