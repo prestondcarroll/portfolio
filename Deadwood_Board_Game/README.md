@@ -1,6 +1,6 @@
 # Deadwood Board Game
 
-![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/Deadwood_Board_Game/deadwood_demo.mp4)
+![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/Deadwood_Board_Game/deadwood_demo.mp4)
 
 This program is a digital version of the board game Deadwood by Cheapass Games. It was completed for an Object Oriented Programming
 class in June 2018. It was programmed in Java, and it was discussed & developed throughout the class. Our two man team was 
@@ -17,4 +17,4 @@ The game mixes chance with some strategy for players to compete to get the highe
 the dice roll used for payout, they can choose where to go and what to do with their fame and fortune. The game has a western
 theme to it and the character designs are cartoonish and stylized. 
 
-![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/school/Deadwood_Board_Game/deawood.png)
+![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Deadwood_Board_Game/deawood.png)
