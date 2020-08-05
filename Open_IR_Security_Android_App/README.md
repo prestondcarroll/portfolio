@@ -1,25 +1,25 @@
 # Open IR Security
 
-* An open source software and hardware system that combines the portability of an Android phone app with infrared motion sensors. It allows useres to monitor the security and safety of their homes from any location around the world.
+* An open-source software and hardware system that combines the portability of an Android phone app with infrared motion sensors. It allows users to monitor the security and safety of their homes from any location around the world.
 
-Data moves back and forth between an Arduino microcontroller, a Firebase Server, and Android. Users can log in, modify sensors, and monitor information. 
+Data moves back and forth between an Arduino microcontroller, a Firebase Server, and Android. On the app, users can log in, modify sensors, and monitor information & alerts. 
 
-My contributions included adding features for alerting via email, arming and disarming the sensor on the app, formatting various layouts of the app, and initial setup process & instructions. Requirement gathering, designing database structure, and app debugging were done collaboratively.
+My contributions included adding features for alerting via email, arming and disarming the sensor on the app, formatting various layouts of the app, and initial setup process & instructions. Requirement gathering, designing database structure, and app debugging was done collaboratively.
 Shoutout to my former classmates Kalvin, Gus, Dagmar, and Steven.
 
 
-App Features:
-  Security alerts sent via email
-  History and filter for previous activity / alerts
-  Log in and authentication via secure Firebase server
-  Adding additional sensors to profile
-  Disarming and arming sensor 
+Bullet listApp Features:
+ * Security alerts sent via email
+ * History and filter for previous activity / alerts
+ * Log in and authentication via secure Firebase server
+ * Adding additional sensors to profile
+  * Disarming and arming sensor 
 
 There are four main components: 
-  Android app: 
-  Firebase database:
-  ESP Microcontroller:
-  Motion Sensor:
+  * Android app: Written in Java
+  * Firebase database: Non-Relational JSON database
+  * ESP Microcontroller: Microchip with built in Wi-fi
+  * Motion Sensor: Infrared Passive Motion Sensor, ~2 inches wide
   
   
 <br/>
