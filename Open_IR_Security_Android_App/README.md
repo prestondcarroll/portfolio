@@ -1,6 +1,6 @@
 # Open IR Security
 
-* An open-source software and hardware system that combines the portability of an Android phone app with infrared motion sensors. It allows users to monitor the security and safety of their homes from any location around the world.
+An open-source software and hardware system that combines the portability of an Android phone app with infrared motion sensors. It allows users to monitor the security and safety of their homes from any location around the world.
 
 Data moves back and forth between an Arduino microcontroller, a Firebase Server, and Android. On the app, users can log in, modify sensors, and monitor information & alerts. 
 
