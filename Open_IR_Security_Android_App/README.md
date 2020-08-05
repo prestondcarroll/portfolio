@@ -8,7 +8,7 @@ My contributions included adding features for alerting via email, arming and dis
 Shoutout to my former classmates Kalvin, Gus, Dagmar, and Steven.
 
 
-Bullet listApp Features:
+App Features:
  * Security alerts sent via email
  * History and filter for previous activity / alerts
  * Log in and authentication via secure Firebase server
