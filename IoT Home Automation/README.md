@@ -2,7 +2,8 @@
 
 This project simulates an automated house that can respond to specific events and collect data within the house. By transmitting data between microcontrollers, circuit boards, and a Node-Red Server, this house has 7 different sensors/actuators that are all connected.
 
-![Video Demo](https://github.com/prestondcarroll/portfolio/raw/master/IoT%20Home%20Automation/IoT_House_Demo.mp4)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/_TFE7Nt38AE/0.jpg)](https://www.youtube.com/watch?v=_TFE7Nt38AE)
+
 
 #### Example Features
 * Monitor temperature & humidity
