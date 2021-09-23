@@ -1,6 +1,9 @@
 # Deadwood Board Game
 
-![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/Deadwood_Board_Game/deadwood_demo.mp4)
+Click for video demo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/MmYYEW8YpxU/0.jpg)](https://www.youtube.com/watch?v=MmYYEW8YpxU)
+
 
 This program is a digital version of the board game Deadwood by Cheapass Games. It was completed for an Object Oriented Programming
 class in June 2018. It was programmed in Java, and it was discussed & developed throughout the class. Our two man team was 
