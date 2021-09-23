@@ -1,6 +1,8 @@
 # Micro Make
 
-![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/Micro-Make/demo.mp4)
+Click for video demo 
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/OYGT9VaaU_Q/0.jpg)](https://www.youtube.com/watch?v=OYGT9VaaU_Q)
 
 This program is a simplified implementation of the Unix "make" functionality. Make is useful in automatically 
 compiling parts of a project and recompiling parts that are out of date. For large projects, this tool is very valuable for simplifying
