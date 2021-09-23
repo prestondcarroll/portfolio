@@ -1,7 +1,7 @@
 # Birds & Beans
 Birds & Beans
 
-![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/Birds_Beans_Pygame/Birds_Beans.mp4)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/IJ9c73GBglM/0.jpg)](https://www.youtube.com/watch?v=IJ9c73GBglM)
 
 ![alt text](https://raw.githubusercontent.com/prestondcarroll/projects/master/Birds_Beans_Pygame/birds_beans.png)
 
