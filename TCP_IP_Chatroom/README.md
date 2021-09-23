@@ -1,6 +1,9 @@
 # TCP/IP Chatroom
 
-![Video Demo](https://raw.githubusercontent.com/prestondcarroll/projects/master/TCP_IP_Chatroom/chat_client_demo.mp4)
+Click for video demo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/r5ZLK9KckzY/0.jpg)](https://www.youtube.com/watch?v=r5ZLK9KckzY)
+
 
 This program is a simple online chat application where up to 255 participants can connect and send messages to each other.
 A new connection can either be a observer or a participant. Participants have to pick a username and can send messages, while
